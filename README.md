@@ -17,8 +17,10 @@ The RBNS pipeline is designed to run on a Linux computing cluster, optionally wi
 - Python (tested on version 2.7.11)
 - The [Miniconda](https://conda.io/miniconda.html) or [anaconda](https//docs.anaconda.com/) package manager (if you download this now, be sure to 'source ~/.bashrc' after so that 'conda' is on your $PATH).
 - The [Weblogo](http://weblogo.threeplusone.com/manual.html) program (if sequence motif logos are to be produced.)
-- The [forgi](https://viennarna.github.io/forgi/) library (if RNA secondary secondary structure analysis is performed).
 - The [RNAfold](https://www.tbi.univie.ac.at/RNA/) program (if RNA secondary secondary structure analysis is performed).
+
+*NOTE:* The [forgi](https://viennarna.github.io/forgi/) library (if RNA secondary secondary structure analysis is performed) is  imported in teh conda env.
+
 
 If you need help installing any of these tools, see the [detailed documentation](docs/installation.md). When installing dependencies, make sure you agree with the corresponding licenses of various software tools.
 
